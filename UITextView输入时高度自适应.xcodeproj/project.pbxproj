@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54A12221D8E95FB00A78313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A12211D8E95FB00A78313 /* main.m */; };
+		F54A12251D8E95FB00A78313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A12241D8E95FB00A78313 /* AppDelegate.m */; };
+		F54A12281D8E95FB00A78313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A12271D8E95FB00A78313 /* ViewController.m */; };
+		F54A122B1D8E95FB00A78313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A12291D8E95FB00A78313 /* Main.storyboard */; };
+		F54A122D1D8E95FB00A78313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54A122C1D8E95FB00A78313 /* Assets.xcassets */; };
+		F54A12301D8E95FB00A78313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A122E1D8E95FB00A78313 /* LaunchScreen.storyboard */; };
+		F54A123B1D8E95FB00A78313 /* UITextView________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A123A1D8E95FB00A78313 /* UITextView________Tests.m */; };
+		F54A12461D8E95FB00A78313 /* UITextView________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A12451D8E95FB00A78313 /* UITextView________UITests.m */; };
+		F54A12551D8E964B00A78313 /* CMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A12541D8E964B00A78313 /* CMInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54A12371D8E95FB00A78313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54A12151D8E95FB00A78313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54A121C1D8E95FB00A78313;
+			remoteInfo = "UITextView输入时高度自适应";
+		};
+		F54A12421D8E95FB00A78313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54A12151D8E95FB00A78313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54A121C1D8E95FB00A78313;
+			remoteInfo = "UITextView输入时高度自适应";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54A121D1D8E95FB00A78313 /* UITextView输入时高度自适应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITextView输入时高度自适应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A12211D8E95FB00A78313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54A12231D8E95FB00A78313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54A12241D8E95FB00A78313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54A12261D8E95FB00A78313 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F54A12271D8E95FB00A78313 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F54A122A1D8E95FB00A78313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54A122C1D8E95FB00A78313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54A122F1D8E95FB00A78313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54A12311D8E95FB00A78313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54A12361D8E95FB00A78313 /* UITextView输入时高度自适应Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextView输入时高度自适应Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A123A1D8E95FB00A78313 /* UITextView________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView________Tests.m"; sourceTree = "<group>"; };
+		F54A123C1D8E95FB00A78313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54A12411D8E95FB00A78313 /* UITextView输入时高度自适应UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextView输入时高度自适应UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A12451D8E95FB00A78313 /* UITextView________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView________UITests.m"; sourceTree = "<group>"; };
+		F54A12471D8E95FB00A78313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54A12531D8E964B00A78313 /* CMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMInputView.h; sourceTree = "<group>"; };
+		F54A12541D8E964B00A78313 /* CMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54A121A1D8E95FB00A78313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A12331D8E95FB00A78313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A123E1D8E95FB00A78313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54A12141D8E95FB00A78313 = {
+			isa = PBXGroup;
+			children = (
+				F54A121F1D8E95FB00A78313 /* UITextView输入时高度自适应 */,
+				F54A12391D8E95FB00A78313 /* UITextView输入时高度自适应Tests */,
+				F54A12441D8E95FB00A78313 /* UITextView输入时高度自适应UITests */,
+				F54A121E1D8E95FB00A78313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54A121E1D8E95FB00A78313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54A121D1D8E95FB00A78313 /* UITextView输入时高度自适应.app */,
+				F54A12361D8E95FB00A78313 /* UITextView输入时高度自适应Tests.xctest */,
+				F54A12411D8E95FB00A78313 /* UITextView输入时高度自适应UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54A121F1D8E95FB00A78313 /* UITextView输入时高度自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				F54A12231D8E95FB00A78313 /* AppDelegate.h */,
+				F54A12241D8E95FB00A78313 /* AppDelegate.m */,
+				F54A12261D8E95FB00A78313 /* ViewController.h */,
+				F54A12271D8E95FB00A78313 /* ViewController.m */,
+				F54A12531D8E964B00A78313 /* CMInputView.h */,
+				F54A12541D8E964B00A78313 /* CMInputView.m */,
+				F54A12291D8E95FB00A78313 /* Main.storyboard */,
+				F54A122C1D8E95FB00A78313 /* Assets.xcassets */,
+				F54A122E1D8E95FB00A78313 /* LaunchScreen.storyboard */,
+				F54A12311D8E95FB00A78313 /* Info.plist */,
+				F54A12201D8E95FB00A78313 /* Supporting Files */,
+			);
+			path = "UITextView输入时高度自适应";
+			sourceTree = "<group>";
+		};
+		F54A12201D8E95FB00A78313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54A12211D8E95FB00A78313 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F54A12391D8E95FB00A78313 /* UITextView输入时高度自适应Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F54A123A1D8E95FB00A78313 /* UITextView________Tests.m */,
+				F54A123C1D8E95FB00A78313 /* Info.plist */,
+			);
+			path = "UITextView输入时高度自适应Tests";
+			sourceTree = "<group>";
+		};
+		F54A12441D8E95FB00A78313 /* UITextView输入时高度自适应UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F54A12451D8E95FB00A78313 /* UITextView________UITests.m */,
+				F54A12471D8E95FB00A78313 /* Info.plist */,
+			);
+			path = "UITextView输入时高度自适应UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54A121C1D8E95FB00A78313 /* UITextView输入时高度自适应 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54A124A1D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应" */;
+			buildPhases = (
+				F54A12191D8E95FB00A78313 /* Sources */,
+				F54A121A1D8E95FB00A78313 /* Frameworks */,
+				F54A121B1D8E95FB00A78313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView输入时高度自适应";
+			productName = "UITextView输入时高度自适应";
+			productReference = F54A121D1D8E95FB00A78313 /* UITextView输入时高度自适应.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54A12351D8E95FB00A78313 /* UITextView输入时高度自适应Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54A124D1D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应Tests" */;
+			buildPhases = (
+				F54A12321D8E95FB00A78313 /* Sources */,
+				F54A12331D8E95FB00A78313 /* Frameworks */,
+				F54A12341D8E95FB00A78313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54A12381D8E95FB00A78313 /* PBXTargetDependency */,
+			);
+			name = "UITextView输入时高度自适应Tests";
+			productName = "UITextView输入时高度自适应Tests";
+			productReference = F54A12361D8E95FB00A78313 /* UITextView输入时高度自适应Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54A12401D8E95FB00A78313 /* UITextView输入时高度自适应UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54A12501D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应UITests" */;
+			buildPhases = (
+				F54A123D1D8E95FB00A78313 /* Sources */,
+				F54A123E1D8E95FB00A78313 /* Frameworks */,
+				F54A123F1D8E95FB00A78313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54A12431D8E95FB00A78313 /* PBXTargetDependency */,
+			);
+			name = "UITextView输入时高度自适应UITests";
+			productName = "UITextView输入时高度自适应UITests";
+			productReference = F54A12411D8E95FB00A78313 /* UITextView输入时高度自适应UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54A12151D8E95FB00A78313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "道标朱";
+				TargetAttributes = {
+					F54A121C1D8E95FB00A78313 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 57WG4KN8R5;
+						ProvisioningStyle = Automatic;
+					};
+					F54A12351D8E95FB00A78313 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F54A121C1D8E95FB00A78313;
+					};
+					F54A12401D8E95FB00A78313 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F54A121C1D8E95FB00A78313;
+					};
+				};
+			};
+			buildConfigurationList = F54A12181D8E95FB00A78313 /* Build configuration list for PBXProject "UITextView输入时高度自适应" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54A12141D8E95FB00A78313;
+			productRefGroup = F54A121E1D8E95FB00A78313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54A121C1D8E95FB00A78313 /* UITextView输入时高度自适应 */,
+				F54A12351D8E95FB00A78313 /* UITextView输入时高度自适应Tests */,
+				F54A12401D8E95FB00A78313 /* UITextView输入时高度自适应UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54A121B1D8E95FB00A78313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54A12301D8E95FB00A78313 /* LaunchScreen.storyboard in Resources */,
+				F54A122D1D8E95FB00A78313 /* Assets.xcassets in Resources */,
+				F54A122B1D8E95FB00A78313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A12341D8E95FB00A78313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A123F1D8E95FB00A78313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54A12191D8E95FB00A78313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54A12281D8E95FB00A78313 /* ViewController.m in Sources */,
+				F54A12251D8E95FB00A78313 /* AppDelegate.m in Sources */,
+				F54A12221D8E95FB00A78313 /* main.m in Sources */,
+				F54A12551D8E964B00A78313 /* CMInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A12321D8E95FB00A78313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54A123B1D8E95FB00A78313 /* UITextView________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54A123D1D8E95FB00A78313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54A12461D8E95FB00A78313 /* UITextView________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54A12381D8E95FB00A78313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54A121C1D8E95FB00A78313 /* UITextView输入时高度自适应 */;
+			targetProxy = F54A12371D8E95FB00A78313 /* PBXContainerItemProxy */;
+		};
+		F54A12431D8E95FB00A78313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54A121C1D8E95FB00A78313 /* UITextView输入时高度自适应 */;
+			targetProxy = F54A12421D8E95FB00A78313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54A12291D8E95FB00A78313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54A122A1D8E95FB00A78313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54A122E1D8E95FB00A78313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54A122F1D8E95FB00A78313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54A12481D8E95FB00A78313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F54A12491D8E95FB00A78313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54A124B1D8E95FB00A78313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57WG4KN8R5;
+				INFOPLIST_FILE = "UITextView输入时高度自适应/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54A124C1D8E95FB00A78313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57WG4KN8R5;
+				INFOPLIST_FILE = "UITextView输入时高度自适应/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F54A124E1D8E95FB00A78313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextView输入时高度自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView输入时高度自适应.app/UITextView输入时高度自适应";
+			};
+			name = Debug;
+		};
+		F54A124F1D8E95FB00A78313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextView输入时高度自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView输入时高度自适应.app/UITextView输入时高度自适应";
+			};
+			name = Release;
+		};
+		F54A12511D8E95FB00A78313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITextView输入时高度自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITextView输入时高度自适应";
+			};
+			name = Debug;
+		};
+		F54A12521D8E95FB00A78313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITextView输入时高度自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITextView--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITextView输入时高度自适应";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54A12181D8E95FB00A78313 /* Build configuration list for PBXProject "UITextView输入时高度自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54A12481D8E95FB00A78313 /* Debug */,
+				F54A12491D8E95FB00A78313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54A124A1D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54A124B1D8E95FB00A78313 /* Debug */,
+				F54A124C1D8E95FB00A78313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54A124D1D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54A124E1D8E95FB00A78313 /* Debug */,
+				F54A124F1D8E95FB00A78313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54A12501D8E95FB00A78313 /* Build configuration list for PBXNativeTarget "UITextView输入时高度自适应UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54A12511D8E95FB00A78313 /* Debug */,
+				F54A12521D8E95FB00A78313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54A12151D8E95FB00A78313 /* Project object */;
+}
